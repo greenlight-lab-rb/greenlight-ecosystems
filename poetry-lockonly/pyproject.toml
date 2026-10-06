@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "fixture-poetry-lockonly"
+version = "0.0.0"
+description = "Fixture manifest. Deliberately outdated in the lock only."
+authors = ["greenlight lab"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+idna = "^3.7"

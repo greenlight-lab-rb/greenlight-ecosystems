@@ -1,0 +1,7 @@
+{
+  "name": "fixture-pnpm-lockonly",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fixture manifest. Deliberately outdated in the lock only.",
+  "dependencies": { "debug": "^4.3.4" }
+}

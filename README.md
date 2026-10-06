@@ -15,3 +15,8 @@ requests. Do not merge them.
 | `yarn/` | yarn classic | `package.json`, `yarn.lock` |
 | `docker/` | Docker | `Dockerfile` |
 | `uv/` | uv | `pyproject.toml`, `uv.lock` |
+| `pip-compile/` | pip-compile | `requirements.in` + compiled `requirements.txt` |
+| `pnpm-lockonly/` | pnpm | `pnpm-lock.yaml` only (`versioning-strategy: lockfile-only`) |
+| `poetry-lockonly/` | Poetry | `poetry.lock` only (`versioning-strategy: lockfile-only`) |
+| `docker-digest/` | Docker | `FROM image:tag@sha256:digest` |
+| `pip-group/` | pip | two dependencies in one grouped pull request |
