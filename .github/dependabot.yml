@@ -1,0 +1,41 @@
+# One directory per package manager, each deliberately outdated, so
+# Dependabot opens real pull requests that greenlight's end-to-end replays
+# are recorded from. See greenlight/docs/testing.md in
+# UiPath/trustops-development.
+version: 2
+updates:
+  - package-ecosystem: "pip /pip"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "pip /pip-dir/requirements"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "pip /poetry"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "pip /pipenv"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "npm /yarn"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "docker /docker"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "uv /uv"
+    directory: ""
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
