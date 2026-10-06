@@ -3,5 +3,5 @@
   "version": "0.0.0",
   "private": true,
   "description": "Fixture manifest. Deliberately outdated.",
-  "dependencies": { "ms": "2.1.2" }
+  "dependencies": { "ms": "2.1.3" }
 }
