@@ -5,38 +5,38 @@
 # UiPath/trustops-development.
 version: 2
 updates:
-  - package-ecosystem: "pip /pip"
-    directory: ""
+  - package-ecosystem: "pip"
+    directory: "/pip"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "pip /pip-dir/requirements"
-    directory: ""
+  - package-ecosystem: "pip"
+    directory: "/pip-dir/requirements"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "pip /poetry"
-    directory: ""
+  - package-ecosystem: "pip"
+    directory: "/poetry"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "pip /pipenv"
-    directory: ""
+  - package-ecosystem: "pip"
+    directory: "/pipenv"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "npm /yarn"
-    directory: ""
+  - package-ecosystem: "npm"
+    directory: "/yarn"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "docker /docker"
-    directory: ""
+  - package-ecosystem: "docker"
+    directory: "/docker"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-  - package-ecosystem: "uv /uv"
-    directory: ""
+  - package-ecosystem: "uv"
+    directory: "/uv"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
