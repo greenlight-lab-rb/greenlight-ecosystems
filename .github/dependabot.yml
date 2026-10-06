@@ -70,3 +70,26 @@ updates:
     groups:
       all:
         patterns: ["*"]
+  - package-ecosystem: "nuget"
+    directory: "/nuget"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "nuget"
+    directory: "/nuget-azure"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: "gomod"
+    directory: "/gomod"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "npm"
+    directory: "/npm"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5

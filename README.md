@@ -20,3 +20,7 @@ requests. Do not merge them.
 | `poetry-lockonly/` | Poetry | `poetry.lock` only (`versioning-strategy: lockfile-only`) |
 | `docker-digest/` | Docker | `FROM image:tag@sha256:digest` |
 | `pip-group/` | pip | two dependencies in one grouped pull request |
+| `nuget/` | NuGet | a `.csproj` restoring from nuget.org; `Program.cs` uses the package |
+| `nuget-azure/` | NuGet | a package only on UiPath's anonymous `Public.Feeds/UiPath-Official` Azure Artifacts feed; majors ignored |
+| `gomod/` | Go modules | `go.mod` + `go.sum`; `main.go` imports the module |
+| `npm/` | npm | `package.json` + `package-lock.json`; `index.js` requires the package; its own `.greenlight.yml` onboards it in approve mode |
