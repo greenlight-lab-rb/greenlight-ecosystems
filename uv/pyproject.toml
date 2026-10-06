@@ -3,4 +3,4 @@ name = "fixture-uv"
 version = "0.0.0"
 description = "Fixture manifest. Deliberately outdated."
 requires-python = ">=3.11"
-dependencies = ["idna==3.7"]
+dependencies = ["idna==3.20"]
