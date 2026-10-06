@@ -3,5 +3,5 @@
   "version": "0.0.0",
   "private": true,
   "description": "Fixture manifest. Deliberately outdated.",
-  "dependencies": { "debug": "4.3.4" }
+  "dependencies": { "debug": "4.4.3" }
 }
