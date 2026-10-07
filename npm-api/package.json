@@ -1,0 +1,7 @@
+{
+  "name": "fixture-npm-api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fixture manifest. Deliberately outdated: socket.io 4.7.2 removed Server.emitWithAck, which server.ts calls.",
+  "dependencies": { "socket.io": "4.7.0" }
+}

@@ -24,3 +24,4 @@ requests. Do not merge them.
 | `nuget-azure/` | NuGet | a package only on UiPath's anonymous `Public.Feeds/UiPath-Official` Azure Artifacts feed; majors ignored |
 | `gomod/` | Go modules | `go.mod` + `go.sum`; `main.go` imports the module |
 | `npm/` | npm | `package.json` + `package-lock.json`; `index.js` requires the package; its own `.greenlight.yml` onboards it in approve mode |
+| `npm-api/` | npm | `server.ts` calls `Server.emitWithAck`, which socket.io removed after 4.7.0: the bump is an API break the risk gate must call high |
