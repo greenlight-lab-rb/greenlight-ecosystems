@@ -1,4 +1,4 @@
-# run 1791400000: a change to this file makes Dependabot check now.
+# run 1791500000: a change to this file makes Dependabot check now.
 # One directory per package manager, each deliberately outdated, so
 # Dependabot opens real pull requests that greenlight's end-to-end replays
 # are recorded from. See greenlight/docs/testing.md in
@@ -95,6 +95,29 @@ updates:
     open-pull-requests-limit: 5
   - package-ecosystem: "npm"
     directory: "/npm-api"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "bundler"
+    directory: "/bundler"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: "bundler"
+    directory: "/bundler-pin"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/terraform"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "terraform"
+    directory: "/terraform-range"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
