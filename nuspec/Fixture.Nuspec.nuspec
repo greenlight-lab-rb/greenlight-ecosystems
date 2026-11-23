@@ -7,7 +7,7 @@
     <description>A package whose dependencies its .nuspec declares.</description>
     <dependencies>
       <group targetFramework="net8.0">
-        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>
