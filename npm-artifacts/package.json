@@ -4,6 +4,6 @@
   "private": true,
   "description": "greenlight fixture: a @uipath package from UiPath's ServiceCommon Azure Artifacts feed, pinned old so Dependabot bumps it.",
   "dependencies": {
-    "@uipath/featureflags-node-sdk": "2.6.2"
+    "@uipath/featureflags-node-sdk": "2.7.0"
   }
 }
