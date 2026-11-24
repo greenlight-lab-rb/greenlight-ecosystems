@@ -2,12 +2,12 @@
 # pkg/config/bootstrap/images.yaml pins them. greenlight's YAML pin replay
 # bumps these.
 fluxKustomizeController:
-  tag: v1.10.1
+  tag: v1.10.2
 fluxNotificationController:
-  tag: v1.10.0
-fluxSourceController:
   tag: v1.10.1
+fluxSourceController:
+  tag: v1.10.2
 busybox:
-  tag: 1.38.0-20261110
+  tag: 1.38.0-20261118
 agent:
-  imageTag: "14258326"
+  imageTag: "14377449"
