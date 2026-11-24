@@ -1,0 +1,13 @@
+# Image tags pinned in a repository's own YAML, as mazewalk's
+# pkg/config/bootstrap/images.yaml pins them. greenlight's YAML pin replay
+# bumps these.
+fluxKustomizeController:
+  tag: v1.10.1
+fluxNotificationController:
+  tag: v1.10.0
+fluxSourceController:
+  tag: v1.10.1
+busybox:
+  tag: 1.38.0-20261110
+agent:
+  imageTag: "14258326"
