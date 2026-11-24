@@ -1,6 +1,6 @@
 dependencies:
 - name: pyroscope
   repository: oci://ghcr.io/greenlight-lab-rb/helm
-  version: 2.4.3
-digest: sha256:a0b1b30681fbc3f3dbaca742082e2d96e5c2e761ad7cf47a21bdcbd8f317546d
-generated: "2026-11-08T18:27:16.186839215Z"
+  version: 2.4.4
+digest: sha256:dce9222daa127a116fe8acb5ff7e34f76a95ae90e36b06107e621d1af988136f
+generated: "2026-11-22T03:11:30.85443923Z"
